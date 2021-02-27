@@ -1,7 +1,7 @@
 /*==========  Non-Mobile First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1199px) {
+@media (max-width : 1199px) {
 	/* HEADER
 	================================================== */
 	/* Navigation */
@@ -28,7 +28,7 @@
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 991px) {
+@media(max-width : 991px) {
 	/* CUSTOM RESETS
 	================================================== */
 	h4 {
@@ -133,7 +133,7 @@
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 767px) {
+@media (max-width : 767px) {
 	/* CUSTOM RESETS
 	================================================== */
 	h4 {
@@ -402,7 +402,7 @@
 }
 
 /* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 479px) {
+@media  (max-width : 479px) {
 	.visible-xxs {
 		display: block;
 	}
